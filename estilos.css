@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #e3f5ff; 
+    color: #012531;
+}
+
+.hero {
+    background-image: url("resources/Logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px 30px;
+    border-radius: 12px;
+    color: #0077aa;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #0077aa;
+    color: white;
+    padding: 20px;
+}
+
+footer li {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.noticias {
+    margin: 30px auto;
+}
+
+article {
+    background-color: white;
+    border-left: 6px solid #66cc66; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+article:hover {
+    transform: scale(1.02);
+}
+
+summary {
+    cursor: pointer;
+    list-style: none;
+    font-weight: bold;
+    color: #0077aa;
+}
+
+.video_presentacion {
+    text-align: center;
+    margin: 40px 0;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 3px solid #66cc66;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+thead {
+    background-color: #0077aa;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #012531;
+}
+
+tfoot {
+    background-color: #66cc66;
+    font-weight: bold;
+}
+
+.lista_ciclos article {
+    background-color: #ffffff;
+    border-left: 5px solid #0077aa;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+fieldset {
+    border: 2px solid #0077aa;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+legend {
+    font-weight: bold;
+    color: #0077aa;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration:solid;
+    font-weight: bold;
+    color: #012531;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #66cc66;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4db84d;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;              
+    flex-direction: column;     
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #66cc66;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #0077aa;
+}
+
+.canvas {
+    text-align: center;
+    margin: 40px 0;
+}
+
+canvas {
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+            "header header"
+            "main main"
+            "footer footer";
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .noticias {
+        width: 70%;
+    }
+
+    form {
+        max-width: 700px;
+    }
+}

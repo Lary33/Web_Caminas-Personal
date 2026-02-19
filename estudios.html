@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pestaña de ofertas educativas de la web dedicada a la promoción de mi instituto IES el Caminás"
+    />
+    <title>Ofertas educactivas IES Caminás</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ofertas educactivas IES Caminás">
+    <meta property="og:image" content="resources/Logo_texto.png">
+    <meta property="og:description" content="Pestaña de ofertas educativas de la web dedicada a la promoción de mi instituto IES el Caminás">
+
+    <link rel="icon" type="image/jpg" href="resources/Logo.jpg">
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+
+    <header class="hero">
+        <h1>IES El Caminás</h1>
+    </header>
+    
+    <main>
+      <section class="tabla_horario">
+        <h2>Sección de horarios </h2>
+
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Hora</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr>
+              <td>15:00 - 15:55</td>
+              <td>Itinerario personal</td>
+              <td>Itinerario personal</td>
+              <td>Lenguajes de marcas</td>
+              <td rowspan="3">Bases de Datos</td>
+              <td rowspan="2">Sistemas informáticos</td>
+            </tr>
+
+            <tr>
+              <td>15:55 - 16:50</td>
+              <td>Entornos de desarrollo</td>
+              <td rowspan="2">Bases de Datos</td>
+              <td rowspan="2">Programación</td>
+            </tr>
+
+            <tr>
+              <td>16:50 - 17:45</td>
+              <td>Sistemas informáticos</td>
+              <td>Proyecto intermodular</td>
+            </tr>
+
+            <tr>
+              <td>17:45 - 18:10</td>
+              <td colspan="5" style="text-align:center;">RECREO</td>
+            </tr>
+
+            <tr>
+              <td>18:10 - 19:05</td>
+              <td rowspan="2">Sistemas informáticos</td>
+              <td rowspan="3">Programación</td>
+              <td>Inglés profesional</td>
+              <td>Itinerario personal</td>
+              <td rowspan="3">Programación</td>
+            </tr>
+
+            <tr>
+              <td>19:05 - 20:00</td>
+              <td rowspan="2">Entornos de desarrollo</td>
+              <td rowspan="2">Lenguajes de marcas</td>
+            </tr>
+
+            <tr>
+              <td>20:00 - 20:55</td>
+              <td>Inglés profesional</td>
+            </tr>
+
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="6" style="text-align:center;">
+                Horario correspondiente al curso 1º CFSY
+              </td>
+            </tr>
+          </tfoot>
+
+        </table>
+      </section>
+
+
+
+      <section class="lista_ciclos">
+        <h1>Listado de ciclos del instituto</h1>
+
+        <article>
+          <details>
+            <summary><h2>Administración y gestión</h2></summary>
+            <p>Grado medio y grado superior. También en régimen semipresencial para compaginar la vida laboral y académica. Con posibilidades laborales en varios sectores profesionales</p>
+          </details>
+        </article>
+        
+
+        <article>
+          <details>
+            <summary><h2>Vidrio y cerámica</h2></summary>
+            <p>Grado medio, grado superior y formación profesional básica en un sector con gran tradición y salida profesional en la provincia de Castellón</p>
+          </details>
+        </article>
+
+        <article>
+          <details>
+            <summary><h2>Comercio</h2></summary>
+            <p>Apuesta por el marketing, la gestión de ventas, la logística y el transporte y abre las puertas a un futuro laboral con amplias posibilidades.</p>
+          </details>
+        </article>
+
+        <article>
+          <details>
+            <summary><h2>Informática y comunicaciones</h2></summary>
+            <p>Dirige tu formación hacia un campo profesional con gran proyección e inserción laboral. Presencial o a distancia para poder estudiar y trabajar en el mismo tiempo</p>
+          </details>
+        </article>
+      
+      </section>
+
+      <section class="canvas">
+        <canvas id="canvasCaminas" width="200" height="150" style="border:2px solid #000000;">     
+
+        <script>
+          const canvas = document.getElementById("canvasCaminas");
+          const ctx = canvas.getContext("2d");
+
+          ctx.fillStyle = "#0077aa";
+          ctx.fillRect(0, 0, 200, 75);
+
+          ctx.fillStyle = "#66cc66";
+          ctx.fillRect(0, 75, 200, 75);
+
+          ctx.fillStyle = 'white';
+          ctx.beginPath();
+          ctx.arc(5, 90, 25, 0, 2 * Math.PI);
+          ctx.fill();
+
+          ctx.fillStyle = 'white';
+          ctx.beginPath();
+          ctx.arc(40, 75, 25, 0, 2 * Math.PI);
+          ctx.fill();
+
+          ctx.fillStyle = 'white';
+          ctx.beginPath();
+          ctx.arc(75, 90, 25, 0, 2 * Math.PI);
+          ctx.fill();
+
+          ctx.fillStyle = 'white';
+          ctx.beginPath();
+          ctx.arc(110, 75, 25, 0, 2 * Math.PI);
+          ctx.fill();
+
+          ctx.fillStyle = 'white';
+          ctx.beginPath();
+          ctx.arc(145, 90, 25, 0, 2 * Math.PI);
+          ctx.fill();
+
+          ctx.fillStyle = 'white';
+          ctx.beginPath();
+          ctx.arc(180, 75, 25, 0, 2 * Math.PI);
+          ctx.fill();
+        </script>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Otras secciones de nuestra web que te pueden interesar</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Nuestra pestaña de inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+  </body>
+</html>
