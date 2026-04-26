@@ -1,0 +1,42 @@
+[
+ {
+    "id": 1,
+    "titulo": "Nueva Jornada de Puertas Abiertas",
+    "fecha": "2026-05-15",
+    "contenido": "Ven a conocer nuestras instalaciones el día 15 de mayo. Este se organiza con el objetivo de que nuevos alumnos conozcan nuestro centro por si se ven interesados en inscribirse.",
+    "categoria": "Eventos",
+    "importante": true
+ },
+ {
+    "id": 2,
+    "titulo": "Ganadores del Certamen Literario",
+    "fecha": "2026-04-10",
+    "contenido": "Felicitamos a los alumnos de 2º de Bachillerato por sus premios del concurso Literario de Certman. El día 10 de abril se darán los premios a aquellos ganadores en el salón de actos del instituto a las 16:00, los interesados pueden acudir sin problema.",
+    "categoria": "Cultura",
+    "importante": false
+ },
+ {
+    "id": 3,
+    "titulo": "Pruebas homologadas de idiomas",
+    "fecha": "2026-06-19",
+    "contenido": "La Conselleria de Educación, Cultura y Universidades ha publicado la Resolución de 17 de diciembre de 2025 por la que se convocan las pruebas homologadas del nivel A2 del Marco Común Europeo de Referencia para las Lenguas (MCER) para el curso 2025/2026. Los resultados se comunicarán antes del 19 de junio de 2026. El procedimiento de reclamación seguirá la normativa vigente.",
+    "categoria": "Eventos",
+    "importante": true
+ },
+ {
+    "id": 4,
+    "titulo": "Elecciones al Consejo Escolar",
+    "fecha": "2025-10-07",
+    "contenido": "El día 15 de octubre se elaborarán los censos y la celebración del sorteo para la elección de los miembros de la junta electoral que se constitutirá ese mismo día.",
+    "categoria": "Eventos",
+    "importante": false
+ },
+ {
+    "id": 5,
+    "titulo": "Finalización clases para alumnos de 1º GS",
+    "fecha": "2026-05-01",
+    "contenido": "El día 1 de mayo se finalizan oficialmente las clases para todos los alumnos de 1º de GS. Únicamente tendrán que volver a las aulas aquellos que hayan acordado una recuperación con el profesorado o deba realizar un examen extraordinario.",
+    "categoria": "Itinerario",
+    "importante": false
+ }
+]
