@@ -52,6 +52,10 @@ footer {
     padding: 20px;
 }
 
+footer h2 {
+    text-align: center;
+}
+
 footer li {
     display: flex;
     flex-direction: column;
@@ -183,7 +187,7 @@ button {
 }
 
 button:hover {
-    background-color: #4db84d;
+    background-color: #66cc66;
 }
 
 nav ul {
@@ -219,6 +223,28 @@ nav a:hover {
 
 canvas {
     border-radius: 10px;
+}
+
+.noticia-destacada {
+    border: 2px solid #ff9800;
+    background-color: #fff9f0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.btn-destacar {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #66cc66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-destacar:hover{
+    background-color: #0077aa;
 }
 
 @media (min-width: 768px) {
